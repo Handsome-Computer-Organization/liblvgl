@@ -1,1 +1,0 @@
-/usr/bin/cc -g CMakeFiles/main.dir/main.c.o CMakeFiles/main.dir/lv_extra/mouse_cursor_icon.c.o -o ../bin/main  -Wl,-rpath,/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/bin -lSDL2 -lfreetype ../bin/libliblvgl.so -lm 
