@@ -1,0 +1,5 @@
+/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/CMakeFiles/run.dir
+/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/CMakeFiles/main.dir
+/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/CMakeFiles/edit_cache.dir
+/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/CMakeFiles/liblvgl.dir

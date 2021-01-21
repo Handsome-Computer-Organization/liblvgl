@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lvgl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\lib64\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run">
+				<Option working_dir="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 run"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/bin/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/bin/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="liblvgl">
+				<Option output="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/bin/libliblvgl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 liblvgl"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="liblvgl/fast">
+				<Option output="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/bin/libliblvgl.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl"/>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 liblvgl/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_conf.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/display/drm.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/display/drm.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/display/fbdev.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/display/fbdev.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/display/monitor.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/display/monitor.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/gtkdrv/gtkdrv.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/gtkdrv/gtkdrv.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/evdev.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/evdev.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/keyboard.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/keyboard.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/libinput.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/libinput_drv.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/mouse.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/mouse.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/mousewheel.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/indev/mousewheel.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/win_drv.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drivers/win_drv.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_drv_conf.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_ex_conf.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/lv_ex_conf_template.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/lv_examples.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/assets/img_cogwheel_alpha16.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/assets/img_cogwheel_argb.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/assets/img_cogwheel_chroma_keyed.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/assets/img_cogwheel_indexed16.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/assets/img_cogwheel_rgb.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/assets/img_hand.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/assets/lv_font_montserrat_12_compr_az.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/assets/lv_font_montserrat_16_compr_az.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/assets/lv_font_montserrat_28_compr_az.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_benchmark/lv_demo_benchmark.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_benchmark/lv_demo_benchmark.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_keypad_encoder/lv_demo_keypad_encoder.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_list_pause.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_list_play.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_loop.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_next.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_pause.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_play.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_prev.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_btn_rnd.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_corner_left.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_corner_right.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_cover_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_cover_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_cover_3.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_3.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_icon_4.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_list_border.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_logo.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_slider_knob.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_wave_bottom.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/img_lv_demo_music_wave_top.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/lv_demo_music_font_16_bold.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/spectrum_1.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/spectrum_2.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/assets/spectrum_3.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/lv_demo_music.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/lv_demo_music.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/lv_demo_music_list.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/lv_demo_music_list.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/lv_demo_music_main.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_music/lv_demo_music_main.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_bright.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_eco.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_hue.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_pc.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_tel.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_icon_wifi.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_3.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_btn_bg_4.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_cloud.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_copy.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_internet.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_mobile.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_no_internet.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_phone.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_print.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_printer2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_ready.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_scan.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_scan_example.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_setup.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_usb.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/images/lv_demo_printer_img_wave.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/lv_demo_printer.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/lv_demo_printer.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/lv_demo_printer_theme.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_printer/lv_demo_printer_theme.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_stress/lv_demo_stress.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_stress/lv_demo_stress.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_widgets/lv_demo_widgets.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_demo_widgets/lv_demo_widgets.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_get_started/lv_ex_get_started.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_get_started/lv_ex_get_started_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_get_started/lv_ex_get_started_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_get_started/lv_ex_get_started_3.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_10.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_11.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_3.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_4.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_5.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_6.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_7.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_8.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_style/lv_ex_style_9.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_arc/lv_ex_arc_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_arc/lv_ex_arc_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_bar/lv_ex_bar_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_btn/lv_ex_btn_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_btnmatrix/lv_ex_btnmatrix_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_calendar/lv_ex_calendar_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_canvas/lv_ex_canvas_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_canvas/lv_ex_canvas_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_chart/lv_ex_chart_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_chart/lv_ex_chart_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_checkbox/lv_ex_checkbox_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_cont/lv_ex_cont_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_cpicker/lv_ex_cpicker_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_cpicker/lv_ex_cpicker_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_dropdown/lv_ex_dropdown_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_dropdown/lv_ex_dropdown_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_gauge/lv_ex_gauge_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_gauge/lv_ex_gauge_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_img/lv_ex_img_3.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/imgbtn_blue.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/imgbtn_green.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_imgbtn/lv_ex_imgbtn_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_keyboard/lv_ex_keyboard_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_label/lv_ex_label_3.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_led/lv_ex_led_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_line/lv_ex_line_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_linemeter/lv_ex_linemeter_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_list/lv_ex_list_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_msgbox/lv_ex_msgbox_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_msgbox/lv_ex_msgbox_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_obj/lv_ex_obj_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_objmask/lv_ex_objmask_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_objmask/lv_ex_objmask_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_page/lv_ex_page_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_roller/lv_ex_roller_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_slider/lv_ex_slider_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_spinbox/lv_ex_spinbox_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_spinner/lv_ex_spinner_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_switch/lv_ex_switch_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_table/lv_ex_table_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_tabview/lv_ex_tabview_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_2.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_textarea/lv_ex_textarea_3.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_tileview/lv_ex_tileview_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_widgets.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_ex_widgets/lv_ex_win/lv_ex_win_1.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_examples/src/lv_examples.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_extra/mouse_cursor_icon.c">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_bmp/lv_bmp.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_bmp/lv_bmp.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_freetype/lv_freetype.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_freetype/lv_freetype.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_gif/gifdec.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_gif/gifdec.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_gif/lv_gif.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_gif/lv_gif.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_png/lodepng.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_png/lodepng.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_png/lv_png.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_png/lv_png.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_qrcode/lv_qrcode.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_qrcode/lv_qrcode.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_qrcode/qrcodegen.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_qrcode/qrcodegen.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/lv_tinygl_test.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/lv_tinygl_test.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/api.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/arrays.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/clear.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/clip.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/error.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/gears.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/gears.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/get.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/gl.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/glu.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/glu.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/image_util.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/init.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/light.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/list.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/matrix.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/memory.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/misc.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/msghandling.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/msghandling.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/objtest.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/opinfo.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/oscontext.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/oscontext.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/select.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/specbuf.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/specbuf.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/texture.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/triangle.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/vertex.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/zbuffer.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/zbuffer.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/zdither.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/zfeatures.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/zgl.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/zline.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/zline.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/zmath.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/zmath.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/ztriangle.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lv_libs/lv_tinygl/src/ztriangle.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/lvgl.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_api_map.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_conf_internal.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_conf_kconfig.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_disp.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_disp.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_group.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_group.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_indev.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_indev.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_obj.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_obj.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_obj_style_dec.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_refr.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_refr.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_style.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_core/lv_style.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_arc.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_arc.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_blend.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_blend.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_img.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_img.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_label.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_label.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_line.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_line.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_mask.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_mask.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_rect.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_rect.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_triangle.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_draw_triangle.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_img_buf.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_img_buf.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_img_cache.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_img_cache.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_img_decoder.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_draw/lv_img_decoder.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_dejavu_16_persian_hebrew.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_fmt_txt.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_fmt_txt.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_loader.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_loader.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_10.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_12.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_12_subpx.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_14.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_16.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_18.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_20.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_22.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_24.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_26.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_28.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_28_compressed.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_30.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_32.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_34.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_36.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_38.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_40.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_42.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_44.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_46.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_48.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_montserrat_8.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_simsun_16_cjk.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_unscii_16.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_font_unscii_8.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_font/lv_symbol_def.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_gpu/lv_gpu_nxp_pxp.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_gpu/lv_gpu_nxp_pxp.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_gpu/lv_gpu_nxp_pxp_osa.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_gpu/lv_gpu_nxp_pxp_osa.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_gpu/lv_gpu_nxp_vglite.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_gpu/lv_gpu_nxp_vglite.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_gpu/lv_gpu_stm32_dma2d.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_hal/lv_hal.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_hal/lv_hal_disp.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_hal/lv_hal_disp.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_hal/lv_hal_indev.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_hal/lv_hal_indev.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_hal/lv_hal_tick.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_hal/lv_hal_tick.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_anim.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_anim.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_area.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_area.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_async.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_async.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_bidi.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_bidi.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_color.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_color.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_debug.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_debug.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_fs.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_fs.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_gc.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_gc.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_ll.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_ll.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_log.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_log.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_math.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_math.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_mem.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_mem.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_printf.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_printf.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_task.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_task.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_templ.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_templ.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_txt.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_txt.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_txt_ap.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_txt_ap.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_types.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_utils.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_misc/lv_utils.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme_empty.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme_empty.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme_material.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme_material.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme_mono.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme_mono.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme_template.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_themes/lv_theme_template.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_arc.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_arc.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_bar.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_bar.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_btn.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_btn.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_btnmatrix.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_btnmatrix.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_calendar.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_calendar.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_canvas.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_canvas.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_chart.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_chart.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_checkbox.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_checkbox.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_cont.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_cont.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_cpicker.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_cpicker.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_dropdown.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_dropdown.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_gauge.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_gauge.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_img.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_img.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_imgbtn.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_imgbtn.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_keyboard.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_keyboard.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_label.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_label.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_led.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_led.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_line.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_line.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_linemeter.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_linemeter.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_list.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_list.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_msgbox.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_msgbox.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_objmask.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_objmask.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_objx_templ.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_objx_templ.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_page.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_page.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_roller.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_roller.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_slider.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_slider.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_spinbox.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_spinbox.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_spinner.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_spinner.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_switch.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_switch.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_table.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_table.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_tabview.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_tabview.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_textarea.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_textarea.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_tileview.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_tileview.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_win.c">
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lv_widgets/lv_win.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/lvgl/src/lvgl.h">
+			<Option target="main"/>
+			<Option target="liblvgl"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/main.c">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/../../../../../../../../../../usr/lib64/cmake/SDL2/SDL2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\lib64\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/../../../../../../../../../../usr/lib64/cmake/SDL2/SDL2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\lib64\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/../../../../../../../../../../usr/lib64/cmake/SDL2/SDL2Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\lib64\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/run/media/guo/0ed46c3d-c7db-4e08-80e2-4b18bd7544a2/home/guo/handsomepojects/hmgl/发布/liblvgl/../../../../../../../../../../usr/lib64/cmake/SDL2/SDL2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\lib64\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
