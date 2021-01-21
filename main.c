@@ -17,6 +17,7 @@
 #include "lv_drivers/display/monitor.h"
 #include "lv_drivers/indev/mouse.h"
 #include "lv_examples/lv_examples.h"
+#include "lv_libs/lv_rlottie/lv_rlottie.h"
 
 /*********************
  *      DEFINES
@@ -56,8 +57,10 @@ int main(int argc, char **argv)
 
   /*Initialize the HAL (display, input devices, tick) for LVGL*/
   hal_init();
-
-  lv_demo_widgets();
+   lv_obj_t *obj = lv_rlottie_create_from_file(lv_scr_act(),180,250,"girl.json");
+   lv_obj_set_pos(obj,20,40);
+   lv_obj_set_drag(obj,true);
+  //lv_demo_widgets();
 //  lv_demo_printer();
    //lv_tinygl_test();
 
