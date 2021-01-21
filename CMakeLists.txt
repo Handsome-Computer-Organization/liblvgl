@@ -19,10 +19,11 @@ SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 find_package(SDL2 REQUIRED SDL2)
-find_package(Freetype REQUIRED Freetype)
+find_package(Freetype REQUIRED)
 find_package(rlottie REQUIRED rlottie)
 include_directories(${SDL2_INCLUDE_DIRS} ${FREETYPE_INCLUDE_DIRS})
 add_library(liblvgl SHARED ${SOURCES} ${INCLUDES})
+target_link_libraries(liblvgl PRIVATE rlottie SDL2 freetype m)
 #main for test
 add_executable(main ${EXAMPLE} ${INCLUDES})
 target_link_libraries(main PRIVATE rlottie SDL2 freetype liblvgl m)
